@@ -11,6 +11,8 @@ public class registedCustomer extends customer {
         age = ag;
         cityName = cty;
 
+        //set values to Discount state
+        //you can set any value with any condition. I used age as condition
         if(age>10 && age <50){
             discount = 10;
         }
@@ -18,7 +20,10 @@ public class registedCustomer extends customer {
              discount = 25;
 
         }
+         else {
+             discount = 5;
+        }
     }
 
-    
+
 }
