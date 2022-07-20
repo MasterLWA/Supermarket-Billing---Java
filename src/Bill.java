@@ -4,6 +4,7 @@ public class Bill {
     private int billID;
     private  float totalPrice;
     private Date date;
+    private  int Discount;
     //private String *items[];
 
 
@@ -15,6 +16,8 @@ public class Bill {
     public void displayTotal(){
         System.out.println("Total:"+ totalPrice);
         System.out.println("Bill Number: " + billID);
+        System.out.println("Discount" + Discount );
+        System.out.println("Date :" + date);
     }
 
 }
